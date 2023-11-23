@@ -1,3 +1,4 @@
+package E001Assoziationen;
 public class Person {
  
 

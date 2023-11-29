@@ -10,6 +10,7 @@ public class Start {
         Parkplatz p4 = new Parkplatz("A4");
         p3 = null;
 
+
         //Garbage Collector anstoßen
         System.gc();
 
@@ -25,8 +26,10 @@ public class Start {
 
         Person max = new Person("Meier", p1);
         System.out.println(max);
-        
-        System.out.println(max.getParkplatzNr());
+        System.out.println(p1);
+        System.out.println(p2);
+        System.out.println(p3);
+        System.out.println(p4);
     }
 
 }

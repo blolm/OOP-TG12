@@ -11,8 +11,8 @@ public class Lehrer {
     //Konstruktor 
     public Lehrer(){
 
-        name = Hammer;
-        setKuerzel(neuesKuerzel:"hr");
+        name = "Hammer";
+        setKuerzel("hr");
     }
 
     
@@ -27,9 +27,9 @@ public class Lehrer {
 
     //Setter
     public void setName(String name) {
-        this.name = name;
+        this.name = name;                   //"this." wird nur gebruacht wenn der String gleich heißt wie der Übergabe Parameter 
    }
-                                                              //"this." wird nur gebruacht wenn der String gleich heißt wie der Übergabe Parameter 
+                                                              
 
     public void setKuerzel(String neuesKuerzel) {
 

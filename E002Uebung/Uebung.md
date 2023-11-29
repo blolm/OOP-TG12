@@ -6,7 +6,7 @@
 4. Jeder Regisseur wird mit Name, Vorname und einer Beschreibung gespeichert.
 5. Ein Regisseur muss mindestens mit einem Namen erstellt werden.
 6. Zu einem Film gehört immer genau ein Regisseur.
-7. Alle Daten solle nauf der Konsole ausgegeben werden.
+7. Alle Daten sollen auf der Konsole ausgegeben werden.
 8. Die Anzahl der erzeugten Filme soll gespeichert werden.
 9. Jeder Film hat eine autom. erzeugte id. Die erste id beginnt bei 0.
 10. Die Anzahl der Filme soll auch gelöschte Filme berücksichtigen.

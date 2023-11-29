@@ -19,7 +19,7 @@ public class Startklasse {
         //alle Schueler ausgeben
         System.out.println(dieSchueler);
 
-        //alle schueler ausgeben
+        //alle Schuelernamen ausgeben
         for (Schueler schueler : dieSchueler) {
             System.out.println(schueler.getName());
         }

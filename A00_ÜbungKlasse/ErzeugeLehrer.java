@@ -4,7 +4,7 @@ public class ErzeugeLehrer {
  
     public static void main(String[] args) {
         
-       // Lehrer s1 = new Lehrer();
+       Lehrer s1 = new Lehrer();
 
     }
 }

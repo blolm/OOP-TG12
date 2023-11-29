@@ -6,7 +6,6 @@ public class Regisseur {
     private String beschreibung;
 
 
-
     public Regisseur(String name) {
         this.name = name;
 
@@ -14,13 +13,11 @@ public class Regisseur {
 
 
 
+    //getter und setter
 
     public String getName() {
         return name;
     }
-
-
-
 
 
     public void setName(String name) {
@@ -28,15 +25,9 @@ public class Regisseur {
     }
 
 
-
-
-
     public String getVorname() {
         return vorname;
     }
-
-
-
 
 
     public void setVorname(String vorname) {
@@ -44,24 +35,20 @@ public class Regisseur {
     }
 
 
-
-
-
     public String getBeschreibung() {
         return beschreibung;
     }
-
-
-
 
 
     public void setBeschreibung(String beschreibung) {
         this.beschreibung = beschreibung;
     }
 
+
+
   @Override
     public String toString() {
-        return "Regisseur [name=" + name + ", vorname=" + vorname + ", beschreibung=" + beschreibung + "]";
+        return "Regisseur: [name:" + name + ", vorname:" + vorname + ", beschreibung:" + beschreibung + "]";
     }
 
 

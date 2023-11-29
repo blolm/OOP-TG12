@@ -4,6 +4,7 @@ public class Film {
     
     Regisseur derRegisseur; //Zeiger auf Klasse Regisseur
 
+
     private int id;
     private String titel;
     private int dauer;
@@ -16,7 +17,7 @@ public class Film {
         this.derRegisseur = r;
         this.titel = titel;
         anzahlErzFilme++;
-        id = anzahlErzFilme;
+        id = anzahlErzFilme - 1;
     }
 
 
@@ -59,22 +60,26 @@ public class Film {
     }
 
 
-    @Override
-    public String toString() {
-        return "  ";
-    }
-
     public Regisseur getRegisseur() {
         return derRegisseur;
     }
+
 
     public void setRegisseur(Regisseur derRegisseur) {
         this.derRegisseur = derRegisseur;
     }
 
+
+    @Override
+    public String toString() {
+        return titel + ": [id=" + id + ", dauer=" + dauer + ", fsk=" + fsk + "]  " + getRegisseur() + "]";
+    }
+
+
     @Override
     protected void finalize() throws Throwable {
         anzahlGelFilme++;
+        System.out.println("Film gelöscht");
     }
 
 

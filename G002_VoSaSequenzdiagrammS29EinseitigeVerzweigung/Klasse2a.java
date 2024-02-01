@@ -1,4 +1,4 @@
-package G002_VoSaSequenzdiagrammS29;
+package G002_VoSaSequenzdiagrammS29EinseitigeVerzweigung;
 
 public class Klasse2a {
 

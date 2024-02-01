@@ -1,4 +1,4 @@
-package G002_VoSaSequenzdiagrammS29;
+package G002_VoSaSequenzdiagrammS29EinseitigeVerzweigung;
 
 import java.util.ArrayList;
 
